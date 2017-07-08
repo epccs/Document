@@ -162,7 +162,7 @@ Linux has many editor options that work: Vim, Emacs, Geany, gedit, ... SciTE is 
 
 ## Pi as a ICSP tool for AVR
 
-[Pi ICSP tool](./images/PiAsISPtool4AVR.png)
+![Pi ICSP tool](./images/PiAsISPtool4AVR.png)
 
 ```
     sudo nano /etc/avrdude.conf
