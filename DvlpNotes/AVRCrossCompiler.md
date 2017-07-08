@@ -114,13 +114,25 @@ also read this
     \\conversion\Samba
 ```
 
+
+## Setting up Git
+
+[https://help.github.com/articles/set-up-git/](https://help.github.com/articles/set-up-git/)
+
+```
+sudo apt-get install git
+```
+
+
 ## AVR toolchain
 
 Now the easy part
 
 ```
-sudo apt-get install git gcc-avr binutils-avr gdb-avr avr-libc avrdude
+sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude
 git clone https://github.com/epccs/Irrigate7
+cd Irrigate7/BlinkLED
+make
 ```
 
 * [gcc-avr](http://packages.ubuntu.com/search?keywords=gcc-avr)
@@ -131,8 +143,10 @@ git clone https://github.com/epccs/Irrigate7
 
 Yep, that is ridiculous, now the controller programs can be compiled from C source files. 
 
-An Editor is needed, use one that does the Makefile tab characters,w hich are in front of the <A HREF="https://en.wikipedia.org/wiki/Make_(software)#Rules">rules</A> and do not have trailing spaces after. 
-    
+An Editor is helpful to modify the program, use one that does the Makefile tab characters,which are in front of the [rules] and do not have trailing spaces after. 
+
+[rules]: https://en.wikipedia.org/wiki/Make_(software)#Rules
+
 On Windows I use SciTE with these settings in SciTEUser.properties
 
 ```
@@ -157,6 +171,7 @@ On Windows I use SciTE with these settings in SciTEUser.properties
 ```
     
 Linux has many editor options that work: Vim, Emacs, Geany, gedit, ... SciTE is not even a good option. Unfortunately, Linux is on the old or headless computer and I need to reference drawings and other documents so SciTE is what I mostly use. (Note I should try the [Atom] editor at some point).
+
 [Atom]: https://github.com/atom/atom
 
 
