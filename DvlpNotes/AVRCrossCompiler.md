@@ -45,13 +45,6 @@ I have found that a headless Raspberry Pi Zero has just enough of a Linux system
 
     # mkeys is my bash script used to install keys from one server to another
     # doing so allows connections without passwords 
-    # copy mkeys to ~/bin or some place 
-    ./bin/mkeys localhost
-    
-    # test and notice a password was not needed
-    ssh localhost
-
-    My little mkeys script...
 
     # It will make (if missing) keys and then copy the public key into the remote box. 
     [mkdir bin] 
@@ -62,14 +55,16 @@ I have found that a headless Raspberry Pi Zero has just enough of a Linux system
     ~/bin/mkeys localhost
     # that should have setup the keys so try to log in
     ssh localhost
-    # if that works one of the putty tools can convert the private key for use with putty on Windows.
-    # mkeys can place the public keys on other Linux machines, raspberrypi is a Pi Zero
+    # notice a password was not needed
+    exit
+    # if that worked then use one of the putty tools to convert the private key for use on Windows.
+    # mkeys can also place the public keys on other Linux machines, raspberrypi is a Pi Zero
     # and zeroconf seems to work (try with a ping first).
     ~/bin/mkeys raspberrypi.local
     ssh raspberrypi.local
 ```
 
-Samba
+## Samba
 
 [https://help.ubuntu.com/community/Samba](https://help.ubuntu.com/community/Samba)
 
