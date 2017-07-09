@@ -123,6 +123,22 @@ also read this
 sudo apt-get install git
 ```
 
+Git has a staging area that is a little different than hg (which I use for a lot of stuff). Anyway all the files that are part of a commit need to be added to the staging area first (with hg only new files need added).
+
+```
+# add the source files
+git add "*.c" "*.h"
+# check for any other files to add
+git status
+git commit -m "my 2 cents"
+```
+
+Go through the demo.
+
+[https://try.github.io/levels/1/challenges/10](https://try.github.io/levels/1/challenges/10)
+
+Keep in mind this works on a headless Raspery Pi Zero over an SSH connection.
+
 
 ## AVR toolchain
 
