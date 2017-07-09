@@ -1,8 +1,8 @@
 # AVR Cross Compiler
 
-This reference is for a PC with Ubuntu, it talks about the AVR toolchain.
+This reference is for a PC with Ubuntu, it is about the AVR toolchain.
 
-The AVR MCU's have an open source toolchain that may be used to develop control applications. So that is the focus but first, some quick notes about the Makefile. To build the control application run "make". The default build will compile the project and leave a firmware.hex file. To be used the firmware needs to be uploaded to an MCU control board, which is done with "make bootload". During a bootload, the Makefile goes through the build rules to create the firmware.hex file and then use a tool (avrdude) to activate the bootloader (e.g. toggling DTR) and then pass it the firmware.hex file using one of the protocols (e.g. xboot uses -c avr109). A serial bootloader operates over the UART (it is not an ICSP connection) and does not erase the upper memory where it resides. Use "make clean" to remove the firmware.hex file. 
+AVR MCU's have an open source toolchain that may be used to develop control applications. So that is the focus but first, some quick notes about the Makefile. To build one of the control application run "make". The default build will compile the project and leave a project.hex file. To be used the firmware needs to be uploaded to an MCU control board, which is done with "make bootload". During a bootload, the Makefile goes through the build rules to create the project.hex file and then use a tool (avrdude) to activate the bootloader (e.g. avrdude pulls nDTR/nRTS active to run the bootloader) and then avrdude uploads the binaary image in project.hex using one of the protocols (e.g. xboot uses -c avr109, optiboot uses -c arduino). The serial bootloader operates over the UART (it is not an ICSP connection) and does not erase the upper memory where the bootloader resides (an ICSP tool erases the bootloader). Use "make clean" to remove the project files. 
 
 I use purposefully simple Makefiles, so I can understand them. If a file is added to the project, the Makefile needs updates, it only builds what I've listed, it is not made to be clever. 
 
