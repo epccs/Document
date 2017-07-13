@@ -6,7 +6,7 @@ AVR MCU's have an open source toolchain that may be used to develop control appl
 
 I use purposefully simple Makefiles, so I can understand them. If a file is added to the project, the Makefile needs updates, it only builds what I've listed, it is not made to be clever. 
 
-[HackaDay-Makefile](http://hackaday.com/2016/03/11/embed-with-elliot-march-makefile-madness/">embed-with-elliot-march-makefile-madness)
+[HackaDay-Makefile](http://hackaday.com/2016/03/11/embed-with-elliot-march-makefile-madness)
 
 The open source GCC based AVR toolchain is time tested and includes gcc-avr, avr-libc, and avrdude. They are used by Atmel Studio and Arduino's IDE. Arduino incurages the use of C++ for learning purposes, but understanding how and when C++ uses heap memory is a strugle and I am in the camp that thinks [object orented programing is bad], so C is my prefered language. I like the Wiring functions (digitalRead, digitalWrite) so I hacked them out of Arduino for use
 with C programs. 
