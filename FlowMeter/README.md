@@ -31,6 +31,12 @@ The Orbit 52212 has a Holtek HT67F30 MCU. This seems adequate for the task it is
 
 ![Orbit 52212 Holtek HT67F30](./images/Orbit_52212_Holtek_HT67F30.jpg)
 
+The Hall sensor that I will try is an [Allegro_A1190LUBTN], it has a current source built in that switches between 2-5mA and 12-17mA, which should work directly with the 100 Ohm twisted pair termination I have on RPUno and Irrigate7 (which bias an NPN open collector pull down for the input capture pin). It can, therefore, be wired with a CAT5 twisted pair, which is noise immune and easy to find. Also, the [K3] board is using 3 of 4 CAT5 pairs so one can be used for the flow meter (and [Irrigate7] is using 7 of 8 pairs of two CAT5 lines). 
+
+[Allegro_A1190LUBTN]: https://www.digikey.com/product-detail/en/allegro-microsystems-llc/A1190LUBTN-T/620-1812-1-ND/6174509
+[K3]: https://github.com/epccs/Driver/tree/master/K3
+[Irrigate7]: https://github.com/epccs/Irrigate7
+
 
 ## Paddle Wheel Flow Meter
 
