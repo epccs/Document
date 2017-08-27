@@ -132,7 +132,16 @@ Go through the demo.
 
 [https://try.github.io/levels/1/challenges/10](https://try.github.io/levels/1/challenges/10)
 
-Keep in mind this works on a headless Raspery Pi Zero over an SSH connection.
+Keep in mind this needs to work on a headless Raspery Pi Zero over an SSH connection.
+
+Problems I am having:
+
+```
+# git does not revert as I would expect e.g. hg revert 
+git reset --hard
+git pull
+
+```
 
 
 ## AVR toolchain

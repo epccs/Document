@@ -37,6 +37,10 @@ The Hall sensor that I will try is an [Allegro_A1190LUBTN], it has a current sou
 [K3]: https://github.com/epccs/Driver/tree/master/K3
 [Irrigate7]: https://github.com/epccs/Irrigate7
 
+Running three in a row shows good resusts after the flow stops. While they were running the numbers did not match which I think has to do with showing data on an LCD.
+
+![Orbit 52212 Three In Row](./images/Orbit_52212_ThreeInRow.jpg)
+
 
 ## Paddle Wheel Flow Meter
 
