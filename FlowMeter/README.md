@@ -41,6 +41,14 @@ Running three in a row shows good resusts after the flow stops. While they were 
 
 ![Orbit 52212 Three In Row](./images/Orbit_52212_ThreeInRow.jpg)
 
+First A1190 hall sensor placed near the spining magnet. I will pot it with hot glue and then give it a spin in the garden after a quick test. The test show 3.7mA and 14.5mA are the two current loop states from the hall sensor.
+
+![Orbit 52212 Guts Replaced With Hall Sensor](./images/Orbit_52212_With_A1190.jpg)
+
+After sorting out the leakes (the pressure regulator would not stop leaking), the Orbit 52212 goes in line with the 3/4 inch hose fittings (that so nice) and hose seals that I can replace when needed. 
+
+![Orbit 52212 With A1190 Working](./images/Orbit_52212_WithA1190InUse.jpg)
+
 
 ## Paddle Wheel Flow Meter
 
