@@ -27,7 +27,7 @@ chmod u+x mkeys
 ssh localhost
 # if that works one of the putty tools can convert the private key for use on Windows.
 # mkeys can also place the public key on the authorized file of other Linux machines. Both   
-# Ubuntu 16.04 LTS and l17.10 have zeroconf that seems to work (try with a ping first).
+# Ubuntu 16.04 LTS and 17.10 have zeroconf that seems to work (try with a ping first).
 ~/bin/mkeys leek.local
 ssh leek.local
 ```
