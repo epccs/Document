@@ -49,6 +49,11 @@ After sorting out the leakes (the pressure regulator would not stop leaking), th
 
 ![Orbit 52212 With A1190 Working](./images/Orbit_52212_WithA1190InUse.jpg)
 
+From about Aug 4, 2017, to Oct 22, 2018, the hall sensor worked. 
+It failed due to reaction with water, voltage, and copper. I will try again but need to think on this a little first. 
+
+![Fail From Mixing Water and Elec](./images/181022_FailFromMixingWaterAndElec.jpg)
+
 
 ## Paddle Wheel Flow Meter
 
