@@ -54,6 +54,12 @@ It failed due to reaction with water, voltage, and copper. I will try again but 
 
 ![Fail From Mixing Water and Elec](./images/181022_FailFromMixingWaterAndElec.jpg)
 
+Jan 8, 2019, replaced the hall sensor. I used Liquid Tape rather than thermoplastic. the meter is working fine it will take a day for the Liquid Tape to cure (no image to show it is ugly). 
+
+![Fail Cracked Flow Tube](./images/190113_FailCrackFlowTube.jpg)
+
+Jan 13, 2019,  the true problem is found, a crack in the flow tube is leaking. It can be seen on the flow tube seam about 2/3 of the way from the marks I made to show where the magnet was spinning. Was it frozen and split at the seam? One thing is for sure I should have put water pressure on it befor putting in a new hall sensor.
+
 
 ## Paddle Wheel Flow Meter
 
