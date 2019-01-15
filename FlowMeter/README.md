@@ -15,9 +15,10 @@ I have been using an [Adafruit_833] for many years now, and it works but I strug
 
 [Adafruit_833]: https://www.adafruit.com/product/833
 
-I have just (8/2/17) got an [Orbit_52212] from one of the hardware stores that distribute Orbit stuff, it has the correct threads for my irrigation projects (yay), the electronics will need some overhaul (which I have not yet finished). I paid 10$ for it, and that seems like a good price since the turbine spins with low mechanical resistance. 
+I have just (8/2/17) got an [Orbit_52212] from one of the [hardware store] that distribute Orbit stuff, it has the correct threads for my irrigation projects (yay), the electronics will need some overhaul. I paid 10$ for it, and that seems like a good price since the turbine spins with low mechanical resistance. 
 
-[Orbit_52212]: http://www.homedepot.com/p/Orbit-Water-Flow-Meter-52212/205489792
+[hardware store]: http://www.homedepot.com/p/Orbit-Water-Flow-Meter-52212/205489792
+[Orbit_52212]:  https://www.orbitonline.com/site_files/manuals/52212-30%20rD%20(1)11.pdf
 
 Orbit 52212 broken open, the cover was cut into little pieces, but all I needed to do was push in the tabs that are accessible from the battery cover side to open the display side (it is not lost, my plan is to hot glue mount a hall sensor).  
 
@@ -59,6 +60,10 @@ Jan 8, 2019, replaced the hall sensor. I used Liquid Tape rather than thermoplas
 ![Fail Cracked Flow Tube](./images/190113_FailCrackFlowTube.jpg)
 
 Jan 13, 2019,  the true problem is found, a crack in the flow tube is leaking. It can be seen on the flow tube seam about 2/3 of the way from the marks I made to show where the magnet was spinning. Was it frozen and split at the seam? One thing is for sure I should have put water pressure on it befor putting in a new hall sensor.
+
+![Orbit Flow Turbine](./images/Orbit_52212_FlowTurbine.jpg)
+
+Opened the flow meter to have a look inside. The turbine has a magnet (it is hanging from the wire cutter). The other parts are plastic and act as bearings to align the center shaft and also act as the flow straightener. It was all housed in an injection molding.
 
 
 ## Paddle Wheel Flow Meter
