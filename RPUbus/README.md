@@ -77,7 +77,7 @@ One of the areas in which I have an interest is flow measurement for which I thi
 
 ## Redundancy
 
-Redundancy does more than improve uptime; it also provides a way to check that sensors are working (producing duplicate data), and thus adds to the trustworthiness of the system. The idea shown has three flow meters that are measured with solar powered MCU boards. Each is battery backed and can provide its power status. There is redundant communication to each flow meter, but it is isolated to a separate group of devices should one lock up the bus. Finally, local data logs on SD cards provide a way for checking and recovering data. 
+Redundancy does more than improve uptime; it also provides a way to check that sensors are working (producing duplicate data), and thus adds to the trustworthiness of the system. The idea shown has three flow meters that are measured with solar powered MCU boards. Each is battery backed and can provide its power status. There is redundant communication to each flow meter, but it is isolated to a separate group of devices should one of the serial bus links be damaged. Finally, local data logs on SD cards provide a way for checking and recovering data. 
 
 ![Redundancy](./Documents/Redundancy.png "Redundancy")
 
