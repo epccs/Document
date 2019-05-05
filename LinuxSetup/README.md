@@ -2,7 +2,9 @@
 
 ## Overview
 
-These are some of my notes for Ubuntu.
+These are some of my notes for Ubuntu, my [R-Pi] notes are more up to date.
+
+[R-Pi]: https://github.com/epccs/RPUpi/blob/master/Hardware/Testing/linux.md
 
 
 ## SSH
