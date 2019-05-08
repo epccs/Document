@@ -44,7 +44,7 @@ Same board with creep corrosion which needs silver and exposed copper.
 
 New Immersion pads look clean and bright (this is same type of drive, but new).
 
-![NewBoardImmersionTin](./Images/NewBoardImmersionTin.jpg "NewBoardImmersionTin")
+![NewBoardImmersionTin](./Images/150428_WD#2NewBoard.jpg "NewBoardImmersionTin")
 
 Creep corrosion is a galvanic reaction between silver and exposed copper that causes tarnish (Ag2S) to become copper sulfide (Cu2S) and then migrate. It is conductive thus will short circuit nodes.
 
