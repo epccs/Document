@@ -46,7 +46,7 @@ Aluminum Foil works reasonably good, but I want to see what is going on, so tryi
 
 Ouch those flames go right up to the glass, will it take it. I have no idea but it is sure mesmerizing to watch.
 
-![BrickStoveLidPyrexPlate](./Images/BrickStoveLidPyrexPlate.jpg "BrickStoveLidPyrexPlate")
+![BrickStoveSecBurn](./Images/BrickStoveSecBurn.jpg "BrickStoveSecBurn")
 
 The damper is no longer needed, and the stove is under negative pressure. The draft is too much when I take the cover off.
 
