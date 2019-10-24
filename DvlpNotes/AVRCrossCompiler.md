@@ -1,10 +1,12 @@
 # AVR Cross Compiler
 
-This reference is for a PC with Ubuntu, it is about the AVR toolchain.
+This reference is out of date, it is for a PC with Ubuntu, and is about the AVR toolchain.
 
-AVR MCU's have an open source toolchain that may be used to develop control applications. So that is the focus but first, some quick notes about the Makefile. To build one of the control application run "make". The default build will compile the project and leave a project.hex file. To be used the firmware needs to be uploaded to an MCU control board, which is done with "make bootload". During a bootload, the Makefile goes through the build rules to create the project.hex file and then use a tool (avrdude) to activate the bootloader (e.g. avrdude pulls nDTR/nRTS active to run the bootloader) and then avrdude uploads the binaary image in project.hex using one of the protocols (e.g. xboot uses -c avr109, optiboot uses -c arduino). The serial bootloader operates over the UART (it is not an ICSP connection) and does not erase the upper memory where the bootloader resides (an ICSP tool erases the bootloader). Use "make clean" to remove the project files. 
+AVR MCU's have an open-source toolchain that may be used to develop control applications. So that is the focus but first, some quick notes about the Makefile. To build the application firmware run "make." The default build should compile the firmware and leave some project files (e.g., elf, hex, lst, map). To be used, the firmware image needs to be uploaded to the MCU on the control board, and that is done with "make bootload." During a bootload, the Makefile needs to cause something to run that can place the firmware image on the MCU.  One trick is to activate an on MCU bootloader with a serial port handshake line (e.g., nDTR/nRTS) and then have an uploader (avrdude) send the binary image. Another trick is to use a dedicated programer chip to access a programming interface (e.g. [MuxTO] is using the UPDI of a mega4809). Use "make clean" to remove the project files after programming. 
 
-I use purposefully simple Makefiles, so I can understand them. If a file is added to the project, the Makefile needs updates, it only builds what I've listed, it is not made to be clever. 
+[MuxTO]: https://github.com/arduino/ArduinoCore-megaavr/tree/master/firmwares/MuxTO
+
+I use purposefully simple Makefiles so that I can understand them. If a file is added to the project, the Makefile needs updates; it only builds what I've listed, it is not clever, and as a result, the file shows the frame, there is no reason to hide the structure of what will be put together because on these things it is simple enough to understand. 
 
 [HackaDay-Makefile](http://hackaday.com/2016/03/11/embed-with-elliot-march-makefile-madness)
 
@@ -229,4 +231,11 @@ Welp, avrdude -c ? (version 6.1 on jessie) did not show the linuxgpio type, but 
 to use linuxspi un-blacklist the spi-bcm2708 module [raspberrypi SPI].
 
 [raspberrypi SPI]: https://www.raspberrypi.org/documentation/hardware/raspberrypi/spi/README.md
+
+
+## Structure-Based Approach
+
+https://hackaday.io/project/165661-freeduino-4809/log/166367-dip-boards-have-swapped-rxtx/discussion-130798
+
+To sum it up: @westfw is hacking some mega4809 boards, and I asked about the virtual port stuff  (e.g., "VPORTA.OUT" vs. "PORTA_OUT"). The info is that having registers (VPorts) in IO space allows indexed addressing instructions to access the most commonly used hardware, and the compiler is smart enough to optimize the access. But since flattened fully qualified addresses are outside the index range, the compiler is not smart enough to optimize there usage.
 

@@ -32,5 +32,5 @@ A gateway has a thermostat interface that connects to the boiler, and a boiler i
 
 # Boiler Controller
 
-If I want to do a boiler controller for my oven, it may be useful to have the thermostat interface.
+If I want to do a boiler controller for my stove, it may be useful to have the thermostat interface.
 
