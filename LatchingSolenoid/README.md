@@ -10,7 +10,7 @@ A current pulse is used to cause an attraction or repulsion [Lorentz] force to o
 
 ## Orbit 58874N Extra Valve
 
-I want to thank Martin, who opened an Orbit 56082 to look at what it was doing to operate a solenoid; his goal is to replicate that with an [Orbit 58874N Extra Valve] from an R-Pi Zero. 
+I want to thank Martin, who opened an Orbit 56082 to look at what it was doing to operate a solenoid; his goal is to replicate that with an [Orbit 58874N Extra Valve] controlled from an R-Pi Zero. 
 
 [Orbit 58874N Extra Valve]: https://www.amazon.com/gp/product/B003LY4I2I
 
@@ -18,11 +18,11 @@ First, the boost converter charges a 2200uF capacitor from about 3V to about 22V
 
 ![Orbit56082_boost](./images/Orbit56082_boost.jpg)
 
-Once boosting is done the chage is applied to do a set operation of a solenoid, which is about 4.1 Ohm (inductance is unknown). Ch1 is showing current at 100mV/A.
+Once boosting is done, the charge is applied to do a set operation on a solenoid, which is about 4.1 Ohm (inductance is unknown). Ch1 is showing current at 100mV/A.
 
 ![SetOrbit56082_solenoid_ch1at100mVperA](./images/SetOrbit56082_solenoid_ch1at100mVperA.png)
 
-After the irrigation cycle boosting is again done the chage is applied to do a reset operation of the solenoid. Ch1 is showing current at 100mV/A agian.
+After the irrigation cycle boosting is again done, and the charge is applied to do a reset operation on the solenoid. Ch1 is showing current at 100mV/A again.
 
 ![ResetOrbit56082_solenoid_ch1at100mVperA](./images/ResetOrbit56082_solenoid_ch1at100mVperA.png)
 
