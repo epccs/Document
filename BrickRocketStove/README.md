@@ -29,6 +29,9 @@ The intake parts remained cool to the touch with the last stove, so I expect the
 
 ## The Build
 
+![Build](./Images2/BrickStove2Build.gif "Build")
+
 Link to image of each row of bricks (more or less).
 
-[row0](./BrickStove2row0.jpg), [row1](./BrickStove2row1.jpg), [row2](./BrickStove2row2.jpg)
+[row0](./Images2/BrickStove2row0.jpg), [row1](./Images2/BrickStove2row1.jpg), [row2](./Images2/BrickStove2row2.jpg),
+[row3](./Images2/BrickStove2row3.jpg), [row4](./Images2/BrickStove2row4.jpg)
