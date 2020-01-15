@@ -34,4 +34,10 @@ The intake parts remained cool to the touch with the last stove, so I expect the
 Link to image of each row of bricks (more or less).
 
 [row0](./Images2/BrickStove2row0.jpg), [row1](./Images2/BrickStove2row1.jpg), [row2](./Images2/BrickStove2row2.jpg),
-[row3](./Images2/BrickStove2row3.jpg), [row4](./Images2/BrickStove2row4.jpg)
+[row3](./Images2/BrickStove2row3.jpg), [row4](./Images2/BrickStove2row4.jpg), [row5](./Images2/BrickStove2row5.jpg),
+[row6](./Images2/BrickStove2row6.jpg), [row7](./Images2/BrickStove2row7.jpg), [row8](./Images2/BrickStove2row8.jpg), 
+[row9](./Images2/BrickStove2row9.jpg), [row10](./Images2/BrickStove2row10.jpg), [row11](./Images2/BrickStove2row11.jpg)
+
+
+
+
