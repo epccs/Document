@@ -39,5 +39,27 @@ Link to image of each row of bricks (more or less).
 [row9](./Images2/BrickStove2row9.jpg), [row10](./Images2/BrickStove2row10.jpg), [row11](./Images2/BrickStove2row11.jpg)
 
 
+## Propane Burner Problem
+
+The propane burner under the air intake burned nicely, but it uses up the oxygen before the wood has a chance, so the test burn with wood looked horrible. I have removed the burner shown in the above images and cleaned up, so the bricks can set over the secondary burn slot like was done on the previous stove. A burn was done to verify that the second burn would work, and it did.
+
+
+## Firebox Over Sized
+
+Another difference from the previous stove was an oversized firebox, which is about 4 inches (two brick hights) wider. I have set bricks sideways on each side to the firebox to reduce the firebox size. I believe this will return the design to parameters that were working. I removed the propane burner and then decreased the firebox because I wanted the next test to minimize unknowns. 
+
+
+## Burn Test
+
+It seems to work.
+
+![AfterBurn](./Images2/BrickStove2afterBurn.jpg "AfterBurn")
+
+
+## Exhaust Leaks
+
+The exhaust has positive pressure when it flows out of the heat exchange dome. Unfortunately, the adobe shrinks as it drys, and the cracks leak. I am going to uncover the exhaust runs and coat the channel with adobe in layers to minimize this problem.
+
+Note: the room I am using is on the side of the house; it does not have vents for cooling or heating. Carbon-monoxide levels did not trigger alarms, but I can see the smoke leaking and smell it. If I can sort out the exhaust problems, I can open some windows and use a fan to circulate warm air through the house.
 
 
